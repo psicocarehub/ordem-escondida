@@ -1,0 +1,15 @@
+Petições, comandos, PDFs, respostas dos modelos, resultados e relatório do estudo
+"Ordem escondida" (casos.py, comandos.py, dados/, resultados/, conferencia/, relatorio.*)
+
+Copyright (c) 2026 Meridian AI Labs
+
+Licenciados sob Creative Commons Atribuição 4.0 Internacional (CC BY 4.0):
+https://creativecommons.org/licenses/by/4.0/
+
+Todas as partes, advogados, números e documentos das petições são fictícios. Os
+seis comandos reais reproduzem trechos publicados por tribunais brasileiros e pela
+imprensa jurídica em 2026, citados com a fonte em comandos.py. As respostas
+foram geradas pelos modelos indicados em cada registro, sob os termos de uso de
+cada provedor.
+
+O código (arquivos .py e .sh) está sob a licença MIT, no arquivo LICENSE.

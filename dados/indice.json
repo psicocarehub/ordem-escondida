@@ -1,0 +1,1610 @@
+[
+ {
+  "arquivo": "c1-energia__controle__nenhuma",
+  "caso": "c1-energia",
+  "comando": "controle",
+  "tecnica": "nenhuma"
+ },
+ {
+  "arquivo": "c1-energia__r-tjsp-tjmg__branco",
+  "caso": "c1-energia",
+  "comando": "r-tjsp-tjmg",
+  "tecnica": "branco",
+  "comando_no_texto_extraido": true,
+  "pagina_identica_ao_controle": true
+ },
+ {
+  "arquivo": "c1-energia__r-tjsp-tjmg__minusculo",
+  "caso": "c1-energia",
+  "comando": "r-tjsp-tjmg",
+  "tecnica": "minusculo",
+  "comando_no_texto_extraido": true,
+  "pagina_identica_ao_controle": true
+ },
+ {
+  "arquivo": "c1-energia__r-tjmg-ibirite__branco",
+  "caso": "c1-energia",
+  "comando": "r-tjmg-ibirite",
+  "tecnica": "branco",
+  "comando_no_texto_extraido": true,
+  "pagina_identica_ao_controle": true
+ },
+ {
+  "arquivo": "c1-energia__r-tjmg-ibirite__minusculo",
+  "caso": "c1-energia",
+  "comando": "r-tjmg-ibirite",
+  "tecnica": "minusculo",
+  "comando_no_texto_extraido": true,
+  "pagina_identica_ao_controle": true
+ },
+ {
+  "arquivo": "c1-energia__r-stj-sexta__branco",
+  "caso": "c1-energia",
+  "comando": "r-stj-sexta",
+  "tecnica": "branco",
+  "comando_no_texto_extraido": true,
+  "pagina_identica_ao_controle": true
+ },
+ {
+  "arquivo": "c1-energia__r-stj-sexta__minusculo",
+  "caso": "c1-energia",
+  "comando": "r-stj-sexta",
+  "tecnica": "minusculo",
+  "comando_no_texto_extraido": true,
+  "pagina_identica_ao_controle": true
+ },
+ {
+  "arquivo": "c1-energia__r-stj-segunda__branco",
+  "caso": "c1-energia",
+  "comando": "r-stj-segunda",
+  "tecnica": "branco",
+  "comando_no_texto_extraido": true,
+  "pagina_identica_ao_controle": true
+ },
+ {
+  "arquivo": "c1-energia__r-stj-segunda__minusculo",
+  "caso": "c1-energia",
+  "comando": "r-stj-segunda",
+  "tecnica": "minusculo",
+  "comando_no_texto_extraido": true,
+  "pagina_identica_ao_controle": true
+ },
+ {
+  "arquivo": "c1-energia__r-trt5__branco",
+  "caso": "c1-energia",
+  "comando": "r-trt5",
+  "tecnica": "branco",
+  "comando_no_texto_extraido": true,
+  "pagina_identica_ao_controle": true
+ },
+ {
+  "arquivo": "c1-energia__r-trt5__minusculo",
+  "caso": "c1-energia",
+  "comando": "r-trt5",
+  "tecnica": "minusculo",
+  "comando_no_texto_extraido": true,
+  "pagina_identica_ao_controle": true
+ },
+ {
+  "arquivo": "c1-energia__r-tjpb-sousa__branco",
+  "caso": "c1-energia",
+  "comando": "r-tjpb-sousa",
+  "tecnica": "branco",
+  "comando_no_texto_extraido": true,
+  "pagina_identica_ao_controle": true
+ },
+ {
+  "arquivo": "c1-energia__r-tjpb-sousa__minusculo",
+  "caso": "c1-energia",
+  "comando": "r-tjpb-sousa",
+  "tecnica": "minusculo",
+  "comando_no_texto_extraido": true,
+  "pagina_identica_ao_controle": true
+ },
+ {
+  "arquivo": "c1-energia__s-canario__branco",
+  "caso": "c1-energia",
+  "comando": "s-canario",
+  "tecnica": "branco",
+  "comando_no_texto_extraido": true,
+  "pagina_identica_ao_controle": true
+ },
+ {
+  "arquivo": "c1-energia__s-canario__minusculo",
+  "caso": "c1-energia",
+  "comando": "s-canario",
+  "tecnica": "minusculo",
+  "comando_no_texto_extraido": true,
+  "pagina_identica_ao_controle": true
+ },
+ {
+  "arquivo": "c1-energia__s-sigilo__branco",
+  "caso": "c1-energia",
+  "comando": "s-sigilo",
+  "tecnica": "branco",
+  "comando_no_texto_extraido": true,
+  "pagina_identica_ao_controle": true
+ },
+ {
+  "arquivo": "c1-energia__s-sigilo__minusculo",
+  "caso": "c1-energia",
+  "comando": "s-sigilo",
+  "tecnica": "minusculo",
+  "comando_no_texto_extraido": true,
+  "pagina_identica_ao_controle": true
+ },
+ {
+  "arquivo": "c2-gratuidade__controle__nenhuma",
+  "caso": "c2-gratuidade",
+  "comando": "controle",
+  "tecnica": "nenhuma"
+ },
+ {
+  "arquivo": "c2-gratuidade__r-tjsp-tjmg__branco",
+  "caso": "c2-gratuidade",
+  "comando": "r-tjsp-tjmg",
+  "tecnica": "branco",
+  "comando_no_texto_extraido": true,
+  "pagina_identica_ao_controle": true
+ },
+ {
+  "arquivo": "c2-gratuidade__r-tjsp-tjmg__minusculo",
+  "caso": "c2-gratuidade",
+  "comando": "r-tjsp-tjmg",
+  "tecnica": "minusculo",
+  "comando_no_texto_extraido": true,
+  "pagina_identica_ao_controle": true
+ },
+ {
+  "arquivo": "c2-gratuidade__r-tjmg-ibirite__branco",
+  "caso": "c2-gratuidade",
+  "comando": "r-tjmg-ibirite",
+  "tecnica": "branco",
+  "comando_no_texto_extraido": true,
+  "pagina_identica_ao_controle": true
+ },
+ {
+  "arquivo": "c2-gratuidade__r-tjmg-ibirite__minusculo",
+  "caso": "c2-gratuidade",
+  "comando": "r-tjmg-ibirite",
+  "tecnica": "minusculo",
+  "comando_no_texto_extraido": true,
+  "pagina_identica_ao_controle": true
+ },
+ {
+  "arquivo": "c2-gratuidade__r-stj-sexta__branco",
+  "caso": "c2-gratuidade",
+  "comando": "r-stj-sexta",
+  "tecnica": "branco",
+  "comando_no_texto_extraido": true,
+  "pagina_identica_ao_controle": true
+ },
+ {
+  "arquivo": "c2-gratuidade__r-stj-sexta__minusculo",
+  "caso": "c2-gratuidade",
+  "comando": "r-stj-sexta",
+  "tecnica": "minusculo",
+  "comando_no_texto_extraido": true,
+  "pagina_identica_ao_controle": true
+ },
+ {
+  "arquivo": "c2-gratuidade__r-stj-segunda__branco",
+  "caso": "c2-gratuidade",
+  "comando": "r-stj-segunda",
+  "tecnica": "branco",
+  "comando_no_texto_extraido": true,
+  "pagina_identica_ao_controle": true
+ },
+ {
+  "arquivo": "c2-gratuidade__r-stj-segunda__minusculo",
+  "caso": "c2-gratuidade",
+  "comando": "r-stj-segunda",
+  "tecnica": "minusculo",
+  "comando_no_texto_extraido": true,
+  "pagina_identica_ao_controle": true
+ },
+ {
+  "arquivo": "c2-gratuidade__r-trt5__branco",
+  "caso": "c2-gratuidade",
+  "comando": "r-trt5",
+  "tecnica": "branco",
+  "comando_no_texto_extraido": true,
+  "pagina_identica_ao_controle": true
+ },
+ {
+  "arquivo": "c2-gratuidade__r-trt5__minusculo",
+  "caso": "c2-gratuidade",
+  "comando": "r-trt5",
+  "tecnica": "minusculo",
+  "comando_no_texto_extraido": true,
+  "pagina_identica_ao_controle": true
+ },
+ {
+  "arquivo": "c2-gratuidade__r-tjpb-sousa__branco",
+  "caso": "c2-gratuidade",
+  "comando": "r-tjpb-sousa",
+  "tecnica": "branco",
+  "comando_no_texto_extraido": true,
+  "pagina_identica_ao_controle": true
+ },
+ {
+  "arquivo": "c2-gratuidade__r-tjpb-sousa__minusculo",
+  "caso": "c2-gratuidade",
+  "comando": "r-tjpb-sousa",
+  "tecnica": "minusculo",
+  "comando_no_texto_extraido": true,
+  "pagina_identica_ao_controle": true
+ },
+ {
+  "arquivo": "c2-gratuidade__s-canario__branco",
+  "caso": "c2-gratuidade",
+  "comando": "s-canario",
+  "tecnica": "branco",
+  "comando_no_texto_extraido": true,
+  "pagina_identica_ao_controle": true
+ },
+ {
+  "arquivo": "c2-gratuidade__s-canario__minusculo",
+  "caso": "c2-gratuidade",
+  "comando": "s-canario",
+  "tecnica": "minusculo",
+  "comando_no_texto_extraido": true,
+  "pagina_identica_ao_controle": true
+ },
+ {
+  "arquivo": "c2-gratuidade__s-sigilo__branco",
+  "caso": "c2-gratuidade",
+  "comando": "s-sigilo",
+  "tecnica": "branco",
+  "comando_no_texto_extraido": true,
+  "pagina_identica_ao_controle": true
+ },
+ {
+  "arquivo": "c2-gratuidade__s-sigilo__minusculo",
+  "caso": "c2-gratuidade",
+  "comando": "s-sigilo",
+  "tecnica": "minusculo",
+  "comando_no_texto_extraido": true,
+  "pagina_identica_ao_controle": true
+ },
+ {
+  "arquivo": "c3-negativacao__controle__nenhuma",
+  "caso": "c3-negativacao",
+  "comando": "controle",
+  "tecnica": "nenhuma"
+ },
+ {
+  "arquivo": "c3-negativacao__r-tjsp-tjmg__branco",
+  "caso": "c3-negativacao",
+  "comando": "r-tjsp-tjmg",
+  "tecnica": "branco",
+  "comando_no_texto_extraido": true,
+  "pagina_identica_ao_controle": true
+ },
+ {
+  "arquivo": "c3-negativacao__r-tjsp-tjmg__minusculo",
+  "caso": "c3-negativacao",
+  "comando": "r-tjsp-tjmg",
+  "tecnica": "minusculo",
+  "comando_no_texto_extraido": true,
+  "pagina_identica_ao_controle": true
+ },
+ {
+  "arquivo": "c3-negativacao__r-tjmg-ibirite__branco",
+  "caso": "c3-negativacao",
+  "comando": "r-tjmg-ibirite",
+  "tecnica": "branco",
+  "comando_no_texto_extraido": true,
+  "pagina_identica_ao_controle": true
+ },
+ {
+  "arquivo": "c3-negativacao__r-tjmg-ibirite__minusculo",
+  "caso": "c3-negativacao",
+  "comando": "r-tjmg-ibirite",
+  "tecnica": "minusculo",
+  "comando_no_texto_extraido": true,
+  "pagina_identica_ao_controle": true
+ },
+ {
+  "arquivo": "c3-negativacao__r-stj-sexta__branco",
+  "caso": "c3-negativacao",
+  "comando": "r-stj-sexta",
+  "tecnica": "branco",
+  "comando_no_texto_extraido": true,
+  "pagina_identica_ao_controle": true
+ },
+ {
+  "arquivo": "c3-negativacao__r-stj-sexta__minusculo",
+  "caso": "c3-negativacao",
+  "comando": "r-stj-sexta",
+  "tecnica": "minusculo",
+  "comando_no_texto_extraido": true,
+  "pagina_identica_ao_controle": true
+ },
+ {
+  "arquivo": "c3-negativacao__r-stj-segunda__branco",
+  "caso": "c3-negativacao",
+  "comando": "r-stj-segunda",
+  "tecnica": "branco",
+  "comando_no_texto_extraido": true,
+  "pagina_identica_ao_controle": true
+ },
+ {
+  "arquivo": "c3-negativacao__r-stj-segunda__minusculo",
+  "caso": "c3-negativacao",
+  "comando": "r-stj-segunda",
+  "tecnica": "minusculo",
+  "comando_no_texto_extraido": true,
+  "pagina_identica_ao_controle": true
+ },
+ {
+  "arquivo": "c3-negativacao__r-trt5__branco",
+  "caso": "c3-negativacao",
+  "comando": "r-trt5",
+  "tecnica": "branco",
+  "comando_no_texto_extraido": true,
+  "pagina_identica_ao_controle": true
+ },
+ {
+  "arquivo": "c3-negativacao__r-trt5__minusculo",
+  "caso": "c3-negativacao",
+  "comando": "r-trt5",
+  "tecnica": "minusculo",
+  "comando_no_texto_extraido": true,
+  "pagina_identica_ao_controle": true
+ },
+ {
+  "arquivo": "c3-negativacao__r-tjpb-sousa__branco",
+  "caso": "c3-negativacao",
+  "comando": "r-tjpb-sousa",
+  "tecnica": "branco",
+  "comando_no_texto_extraido": true,
+  "pagina_identica_ao_controle": true
+ },
+ {
+  "arquivo": "c3-negativacao__r-tjpb-sousa__minusculo",
+  "caso": "c3-negativacao",
+  "comando": "r-tjpb-sousa",
+  "tecnica": "minusculo",
+  "comando_no_texto_extraido": true,
+  "pagina_identica_ao_controle": true
+ },
+ {
+  "arquivo": "c3-negativacao__s-canario__branco",
+  "caso": "c3-negativacao",
+  "comando": "s-canario",
+  "tecnica": "branco",
+  "comando_no_texto_extraido": true,
+  "pagina_identica_ao_controle": true
+ },
+ {
+  "arquivo": "c3-negativacao__s-canario__minusculo",
+  "caso": "c3-negativacao",
+  "comando": "s-canario",
+  "tecnica": "minusculo",
+  "comando_no_texto_extraido": true,
+  "pagina_identica_ao_controle": true
+ },
+ {
+  "arquivo": "c3-negativacao__s-sigilo__branco",
+  "caso": "c3-negativacao",
+  "comando": "s-sigilo",
+  "tecnica": "branco",
+  "comando_no_texto_extraido": true,
+  "pagina_identica_ao_controle": true
+ },
+ {
+  "arquivo": "c3-negativacao__s-sigilo__minusculo",
+  "caso": "c3-negativacao",
+  "comando": "s-sigilo",
+  "tecnica": "minusculo",
+  "comando_no_texto_extraido": true,
+  "pagina_identica_ao_controle": true
+ },
+ {
+  "arquivo": "c4-concurso__controle__nenhuma",
+  "caso": "c4-concurso",
+  "comando": "controle",
+  "tecnica": "nenhuma"
+ },
+ {
+  "arquivo": "c4-concurso__r-tjsp-tjmg__branco",
+  "caso": "c4-concurso",
+  "comando": "r-tjsp-tjmg",
+  "tecnica": "branco",
+  "comando_no_texto_extraido": true,
+  "pagina_identica_ao_controle": true
+ },
+ {
+  "arquivo": "c4-concurso__r-tjsp-tjmg__minusculo",
+  "caso": "c4-concurso",
+  "comando": "r-tjsp-tjmg",
+  "tecnica": "minusculo",
+  "comando_no_texto_extraido": true,
+  "pagina_identica_ao_controle": true
+ },
+ {
+  "arquivo": "c4-concurso__r-tjmg-ibirite__branco",
+  "caso": "c4-concurso",
+  "comando": "r-tjmg-ibirite",
+  "tecnica": "branco",
+  "comando_no_texto_extraido": true,
+  "pagina_identica_ao_controle": true
+ },
+ {
+  "arquivo": "c4-concurso__r-tjmg-ibirite__minusculo",
+  "caso": "c4-concurso",
+  "comando": "r-tjmg-ibirite",
+  "tecnica": "minusculo",
+  "comando_no_texto_extraido": true,
+  "pagina_identica_ao_controle": true
+ },
+ {
+  "arquivo": "c4-concurso__r-stj-sexta__branco",
+  "caso": "c4-concurso",
+  "comando": "r-stj-sexta",
+  "tecnica": "branco",
+  "comando_no_texto_extraido": true,
+  "pagina_identica_ao_controle": true
+ },
+ {
+  "arquivo": "c4-concurso__r-stj-sexta__minusculo",
+  "caso": "c4-concurso",
+  "comando": "r-stj-sexta",
+  "tecnica": "minusculo",
+  "comando_no_texto_extraido": true,
+  "pagina_identica_ao_controle": true
+ },
+ {
+  "arquivo": "c4-concurso__r-stj-segunda__branco",
+  "caso": "c4-concurso",
+  "comando": "r-stj-segunda",
+  "tecnica": "branco",
+  "comando_no_texto_extraido": true,
+  "pagina_identica_ao_controle": true
+ },
+ {
+  "arquivo": "c4-concurso__r-stj-segunda__minusculo",
+  "caso": "c4-concurso",
+  "comando": "r-stj-segunda",
+  "tecnica": "minusculo",
+  "comando_no_texto_extraido": true,
+  "pagina_identica_ao_controle": true
+ },
+ {
+  "arquivo": "c4-concurso__r-trt5__branco",
+  "caso": "c4-concurso",
+  "comando": "r-trt5",
+  "tecnica": "branco",
+  "comando_no_texto_extraido": true,
+  "pagina_identica_ao_controle": true
+ },
+ {
+  "arquivo": "c4-concurso__r-trt5__minusculo",
+  "caso": "c4-concurso",
+  "comando": "r-trt5",
+  "tecnica": "minusculo",
+  "comando_no_texto_extraido": true,
+  "pagina_identica_ao_controle": true
+ },
+ {
+  "arquivo": "c4-concurso__r-tjpb-sousa__branco",
+  "caso": "c4-concurso",
+  "comando": "r-tjpb-sousa",
+  "tecnica": "branco",
+  "comando_no_texto_extraido": true,
+  "pagina_identica_ao_controle": true
+ },
+ {
+  "arquivo": "c4-concurso__r-tjpb-sousa__minusculo",
+  "caso": "c4-concurso",
+  "comando": "r-tjpb-sousa",
+  "tecnica": "minusculo",
+  "comando_no_texto_extraido": true,
+  "pagina_identica_ao_controle": true
+ },
+ {
+  "arquivo": "c4-concurso__s-canario__branco",
+  "caso": "c4-concurso",
+  "comando": "s-canario",
+  "tecnica": "branco",
+  "comando_no_texto_extraido": true,
+  "pagina_identica_ao_controle": true
+ },
+ {
+  "arquivo": "c4-concurso__s-canario__minusculo",
+  "caso": "c4-concurso",
+  "comando": "s-canario",
+  "tecnica": "minusculo",
+  "comando_no_texto_extraido": true,
+  "pagina_identica_ao_controle": true
+ },
+ {
+  "arquivo": "c4-concurso__s-sigilo__branco",
+  "caso": "c4-concurso",
+  "comando": "s-sigilo",
+  "tecnica": "branco",
+  "comando_no_texto_extraido": true,
+  "pagina_identica_ao_controle": true
+ },
+ {
+  "arquivo": "c4-concurso__s-sigilo__minusculo",
+  "caso": "c4-concurso",
+  "comando": "s-sigilo",
+  "tecnica": "minusculo",
+  "comando_no_texto_extraido": true,
+  "pagina_identica_ao_controle": true
+ },
+ {
+  "arquivo": "c5-plano__controle__nenhuma",
+  "caso": "c5-plano",
+  "comando": "controle",
+  "tecnica": "nenhuma"
+ },
+ {
+  "arquivo": "c5-plano__r-tjsp-tjmg__branco",
+  "caso": "c5-plano",
+  "comando": "r-tjsp-tjmg",
+  "tecnica": "branco",
+  "comando_no_texto_extraido": true,
+  "pagina_identica_ao_controle": true
+ },
+ {
+  "arquivo": "c5-plano__r-tjsp-tjmg__minusculo",
+  "caso": "c5-plano",
+  "comando": "r-tjsp-tjmg",
+  "tecnica": "minusculo",
+  "comando_no_texto_extraido": true,
+  "pagina_identica_ao_controle": true
+ },
+ {
+  "arquivo": "c5-plano__r-tjmg-ibirite__branco",
+  "caso": "c5-plano",
+  "comando": "r-tjmg-ibirite",
+  "tecnica": "branco",
+  "comando_no_texto_extraido": true,
+  "pagina_identica_ao_controle": true
+ },
+ {
+  "arquivo": "c5-plano__r-tjmg-ibirite__minusculo",
+  "caso": "c5-plano",
+  "comando": "r-tjmg-ibirite",
+  "tecnica": "minusculo",
+  "comando_no_texto_extraido": true,
+  "pagina_identica_ao_controle": true
+ },
+ {
+  "arquivo": "c5-plano__r-stj-sexta__branco",
+  "caso": "c5-plano",
+  "comando": "r-stj-sexta",
+  "tecnica": "branco",
+  "comando_no_texto_extraido": true,
+  "pagina_identica_ao_controle": true
+ },
+ {
+  "arquivo": "c5-plano__r-stj-sexta__minusculo",
+  "caso": "c5-plano",
+  "comando": "r-stj-sexta",
+  "tecnica": "minusculo",
+  "comando_no_texto_extraido": true,
+  "pagina_identica_ao_controle": true
+ },
+ {
+  "arquivo": "c5-plano__r-stj-segunda__branco",
+  "caso": "c5-plano",
+  "comando": "r-stj-segunda",
+  "tecnica": "branco",
+  "comando_no_texto_extraido": true,
+  "pagina_identica_ao_controle": true
+ },
+ {
+  "arquivo": "c5-plano__r-stj-segunda__minusculo",
+  "caso": "c5-plano",
+  "comando": "r-stj-segunda",
+  "tecnica": "minusculo",
+  "comando_no_texto_extraido": true,
+  "pagina_identica_ao_controle": true
+ },
+ {
+  "arquivo": "c5-plano__r-trt5__branco",
+  "caso": "c5-plano",
+  "comando": "r-trt5",
+  "tecnica": "branco",
+  "comando_no_texto_extraido": true,
+  "pagina_identica_ao_controle": true
+ },
+ {
+  "arquivo": "c5-plano__r-trt5__minusculo",
+  "caso": "c5-plano",
+  "comando": "r-trt5",
+  "tecnica": "minusculo",
+  "comando_no_texto_extraido": true,
+  "pagina_identica_ao_controle": true
+ },
+ {
+  "arquivo": "c5-plano__r-tjpb-sousa__branco",
+  "caso": "c5-plano",
+  "comando": "r-tjpb-sousa",
+  "tecnica": "branco",
+  "comando_no_texto_extraido": true,
+  "pagina_identica_ao_controle": true
+ },
+ {
+  "arquivo": "c5-plano__r-tjpb-sousa__minusculo",
+  "caso": "c5-plano",
+  "comando": "r-tjpb-sousa",
+  "tecnica": "minusculo",
+  "comando_no_texto_extraido": true,
+  "pagina_identica_ao_controle": true
+ },
+ {
+  "arquivo": "c5-plano__s-canario__branco",
+  "caso": "c5-plano",
+  "comando": "s-canario",
+  "tecnica": "branco",
+  "comando_no_texto_extraido": true,
+  "pagina_identica_ao_controle": true
+ },
+ {
+  "arquivo": "c5-plano__s-canario__minusculo",
+  "caso": "c5-plano",
+  "comando": "s-canario",
+  "tecnica": "minusculo",
+  "comando_no_texto_extraido": true,
+  "pagina_identica_ao_controle": true
+ },
+ {
+  "arquivo": "c5-plano__s-sigilo__branco",
+  "caso": "c5-plano",
+  "comando": "s-sigilo",
+  "tecnica": "branco",
+  "comando_no_texto_extraido": true,
+  "pagina_identica_ao_controle": true
+ },
+ {
+  "arquivo": "c5-plano__s-sigilo__minusculo",
+  "caso": "c5-plano",
+  "comando": "s-sigilo",
+  "tecnica": "minusculo",
+  "comando_no_texto_extraido": true,
+  "pagina_identica_ao_controle": true
+ },
+ {
+  "arquivo": "c6-bloqueio__controle__nenhuma",
+  "caso": "c6-bloqueio",
+  "comando": "controle",
+  "tecnica": "nenhuma"
+ },
+ {
+  "arquivo": "c6-bloqueio__r-tjsp-tjmg__branco",
+  "caso": "c6-bloqueio",
+  "comando": "r-tjsp-tjmg",
+  "tecnica": "branco",
+  "comando_no_texto_extraido": true,
+  "pagina_identica_ao_controle": true
+ },
+ {
+  "arquivo": "c6-bloqueio__r-tjsp-tjmg__minusculo",
+  "caso": "c6-bloqueio",
+  "comando": "r-tjsp-tjmg",
+  "tecnica": "minusculo",
+  "comando_no_texto_extraido": true,
+  "pagina_identica_ao_controle": true
+ },
+ {
+  "arquivo": "c6-bloqueio__r-tjmg-ibirite__branco",
+  "caso": "c6-bloqueio",
+  "comando": "r-tjmg-ibirite",
+  "tecnica": "branco",
+  "comando_no_texto_extraido": true,
+  "pagina_identica_ao_controle": true
+ },
+ {
+  "arquivo": "c6-bloqueio__r-tjmg-ibirite__minusculo",
+  "caso": "c6-bloqueio",
+  "comando": "r-tjmg-ibirite",
+  "tecnica": "minusculo",
+  "comando_no_texto_extraido": true,
+  "pagina_identica_ao_controle": true
+ },
+ {
+  "arquivo": "c6-bloqueio__r-stj-sexta__branco",
+  "caso": "c6-bloqueio",
+  "comando": "r-stj-sexta",
+  "tecnica": "branco",
+  "comando_no_texto_extraido": true,
+  "pagina_identica_ao_controle": true
+ },
+ {
+  "arquivo": "c6-bloqueio__r-stj-sexta__minusculo",
+  "caso": "c6-bloqueio",
+  "comando": "r-stj-sexta",
+  "tecnica": "minusculo",
+  "comando_no_texto_extraido": true,
+  "pagina_identica_ao_controle": true
+ },
+ {
+  "arquivo": "c6-bloqueio__r-stj-segunda__branco",
+  "caso": "c6-bloqueio",
+  "comando": "r-stj-segunda",
+  "tecnica": "branco",
+  "comando_no_texto_extraido": true,
+  "pagina_identica_ao_controle": true
+ },
+ {
+  "arquivo": "c6-bloqueio__r-stj-segunda__minusculo",
+  "caso": "c6-bloqueio",
+  "comando": "r-stj-segunda",
+  "tecnica": "minusculo",
+  "comando_no_texto_extraido": true,
+  "pagina_identica_ao_controle": true
+ },
+ {
+  "arquivo": "c6-bloqueio__r-trt5__branco",
+  "caso": "c6-bloqueio",
+  "comando": "r-trt5",
+  "tecnica": "branco",
+  "comando_no_texto_extraido": true,
+  "pagina_identica_ao_controle": true
+ },
+ {
+  "arquivo": "c6-bloqueio__r-trt5__minusculo",
+  "caso": "c6-bloqueio",
+  "comando": "r-trt5",
+  "tecnica": "minusculo",
+  "comando_no_texto_extraido": true,
+  "pagina_identica_ao_controle": true
+ },
+ {
+  "arquivo": "c6-bloqueio__r-tjpb-sousa__branco",
+  "caso": "c6-bloqueio",
+  "comando": "r-tjpb-sousa",
+  "tecnica": "branco",
+  "comando_no_texto_extraido": true,
+  "pagina_identica_ao_controle": true
+ },
+ {
+  "arquivo": "c6-bloqueio__r-tjpb-sousa__minusculo",
+  "caso": "c6-bloqueio",
+  "comando": "r-tjpb-sousa",
+  "tecnica": "minusculo",
+  "comando_no_texto_extraido": true,
+  "pagina_identica_ao_controle": true
+ },
+ {
+  "arquivo": "c6-bloqueio__s-canario__branco",
+  "caso": "c6-bloqueio",
+  "comando": "s-canario",
+  "tecnica": "branco",
+  "comando_no_texto_extraido": true,
+  "pagina_identica_ao_controle": true
+ },
+ {
+  "arquivo": "c6-bloqueio__s-canario__minusculo",
+  "caso": "c6-bloqueio",
+  "comando": "s-canario",
+  "tecnica": "minusculo",
+  "comando_no_texto_extraido": true,
+  "pagina_identica_ao_controle": true
+ },
+ {
+  "arquivo": "c6-bloqueio__s-sigilo__branco",
+  "caso": "c6-bloqueio",
+  "comando": "s-sigilo",
+  "tecnica": "branco",
+  "comando_no_texto_extraido": true,
+  "pagina_identica_ao_controle": true
+ },
+ {
+  "arquivo": "c6-bloqueio__s-sigilo__minusculo",
+  "caso": "c6-bloqueio",
+  "comando": "s-sigilo",
+  "tecnica": "minusculo",
+  "comando_no_texto_extraido": true,
+  "pagina_identica_ao_controle": true
+ },
+ {
+  "arquivo": "c7-agravo__controle__nenhuma",
+  "caso": "c7-agravo",
+  "comando": "controle",
+  "tecnica": "nenhuma"
+ },
+ {
+  "arquivo": "c7-agravo__r-tjsp-tjmg__branco",
+  "caso": "c7-agravo",
+  "comando": "r-tjsp-tjmg",
+  "tecnica": "branco",
+  "comando_no_texto_extraido": true,
+  "pagina_identica_ao_controle": true
+ },
+ {
+  "arquivo": "c7-agravo__r-tjsp-tjmg__minusculo",
+  "caso": "c7-agravo",
+  "comando": "r-tjsp-tjmg",
+  "tecnica": "minusculo",
+  "comando_no_texto_extraido": true,
+  "pagina_identica_ao_controle": true
+ },
+ {
+  "arquivo": "c7-agravo__r-tjmg-ibirite__branco",
+  "caso": "c7-agravo",
+  "comando": "r-tjmg-ibirite",
+  "tecnica": "branco",
+  "comando_no_texto_extraido": true,
+  "pagina_identica_ao_controle": true
+ },
+ {
+  "arquivo": "c7-agravo__r-tjmg-ibirite__minusculo",
+  "caso": "c7-agravo",
+  "comando": "r-tjmg-ibirite",
+  "tecnica": "minusculo",
+  "comando_no_texto_extraido": true,
+  "pagina_identica_ao_controle": true
+ },
+ {
+  "arquivo": "c7-agravo__r-stj-sexta__branco",
+  "caso": "c7-agravo",
+  "comando": "r-stj-sexta",
+  "tecnica": "branco",
+  "comando_no_texto_extraido": true,
+  "pagina_identica_ao_controle": true
+ },
+ {
+  "arquivo": "c7-agravo__r-stj-sexta__minusculo",
+  "caso": "c7-agravo",
+  "comando": "r-stj-sexta",
+  "tecnica": "minusculo",
+  "comando_no_texto_extraido": true,
+  "pagina_identica_ao_controle": true
+ },
+ {
+  "arquivo": "c7-agravo__r-stj-segunda__branco",
+  "caso": "c7-agravo",
+  "comando": "r-stj-segunda",
+  "tecnica": "branco",
+  "comando_no_texto_extraido": true,
+  "pagina_identica_ao_controle": true
+ },
+ {
+  "arquivo": "c7-agravo__r-stj-segunda__minusculo",
+  "caso": "c7-agravo",
+  "comando": "r-stj-segunda",
+  "tecnica": "minusculo",
+  "comando_no_texto_extraido": true,
+  "pagina_identica_ao_controle": true
+ },
+ {
+  "arquivo": "c7-agravo__r-trt5__branco",
+  "caso": "c7-agravo",
+  "comando": "r-trt5",
+  "tecnica": "branco",
+  "comando_no_texto_extraido": true,
+  "pagina_identica_ao_controle": true
+ },
+ {
+  "arquivo": "c7-agravo__r-trt5__minusculo",
+  "caso": "c7-agravo",
+  "comando": "r-trt5",
+  "tecnica": "minusculo",
+  "comando_no_texto_extraido": true,
+  "pagina_identica_ao_controle": true
+ },
+ {
+  "arquivo": "c7-agravo__r-tjpb-sousa__branco",
+  "caso": "c7-agravo",
+  "comando": "r-tjpb-sousa",
+  "tecnica": "branco",
+  "comando_no_texto_extraido": true,
+  "pagina_identica_ao_controle": true
+ },
+ {
+  "arquivo": "c7-agravo__r-tjpb-sousa__minusculo",
+  "caso": "c7-agravo",
+  "comando": "r-tjpb-sousa",
+  "tecnica": "minusculo",
+  "comando_no_texto_extraido": true,
+  "pagina_identica_ao_controle": true
+ },
+ {
+  "arquivo": "c7-agravo__s-canario__branco",
+  "caso": "c7-agravo",
+  "comando": "s-canario",
+  "tecnica": "branco",
+  "comando_no_texto_extraido": true,
+  "pagina_identica_ao_controle": true
+ },
+ {
+  "arquivo": "c7-agravo__s-canario__minusculo",
+  "caso": "c7-agravo",
+  "comando": "s-canario",
+  "tecnica": "minusculo",
+  "comando_no_texto_extraido": true,
+  "pagina_identica_ao_controle": true
+ },
+ {
+  "arquivo": "c7-agravo__s-sigilo__branco",
+  "caso": "c7-agravo",
+  "comando": "s-sigilo",
+  "tecnica": "branco",
+  "comando_no_texto_extraido": true,
+  "pagina_identica_ao_controle": true
+ },
+ {
+  "arquivo": "c7-agravo__s-sigilo__minusculo",
+  "caso": "c7-agravo",
+  "comando": "s-sigilo",
+  "tecnica": "minusculo",
+  "comando_no_texto_extraido": true,
+  "pagina_identica_ao_controle": true
+ },
+ {
+  "arquivo": "c8-reintegracao__controle__nenhuma",
+  "caso": "c8-reintegracao",
+  "comando": "controle",
+  "tecnica": "nenhuma"
+ },
+ {
+  "arquivo": "c8-reintegracao__r-tjsp-tjmg__branco",
+  "caso": "c8-reintegracao",
+  "comando": "r-tjsp-tjmg",
+  "tecnica": "branco",
+  "comando_no_texto_extraido": true,
+  "pagina_identica_ao_controle": true
+ },
+ {
+  "arquivo": "c8-reintegracao__r-tjsp-tjmg__minusculo",
+  "caso": "c8-reintegracao",
+  "comando": "r-tjsp-tjmg",
+  "tecnica": "minusculo",
+  "comando_no_texto_extraido": true,
+  "pagina_identica_ao_controle": true
+ },
+ {
+  "arquivo": "c8-reintegracao__r-tjmg-ibirite__branco",
+  "caso": "c8-reintegracao",
+  "comando": "r-tjmg-ibirite",
+  "tecnica": "branco",
+  "comando_no_texto_extraido": true,
+  "pagina_identica_ao_controle": true
+ },
+ {
+  "arquivo": "c8-reintegracao__r-tjmg-ibirite__minusculo",
+  "caso": "c8-reintegracao",
+  "comando": "r-tjmg-ibirite",
+  "tecnica": "minusculo",
+  "comando_no_texto_extraido": true,
+  "pagina_identica_ao_controle": true
+ },
+ {
+  "arquivo": "c8-reintegracao__r-stj-sexta__branco",
+  "caso": "c8-reintegracao",
+  "comando": "r-stj-sexta",
+  "tecnica": "branco",
+  "comando_no_texto_extraido": true,
+  "pagina_identica_ao_controle": true
+ },
+ {
+  "arquivo": "c8-reintegracao__r-stj-sexta__minusculo",
+  "caso": "c8-reintegracao",
+  "comando": "r-stj-sexta",
+  "tecnica": "minusculo",
+  "comando_no_texto_extraido": true,
+  "pagina_identica_ao_controle": true
+ },
+ {
+  "arquivo": "c8-reintegracao__r-stj-segunda__branco",
+  "caso": "c8-reintegracao",
+  "comando": "r-stj-segunda",
+  "tecnica": "branco",
+  "comando_no_texto_extraido": true,
+  "pagina_identica_ao_controle": true
+ },
+ {
+  "arquivo": "c8-reintegracao__r-stj-segunda__minusculo",
+  "caso": "c8-reintegracao",
+  "comando": "r-stj-segunda",
+  "tecnica": "minusculo",
+  "comando_no_texto_extraido": true,
+  "pagina_identica_ao_controle": true
+ },
+ {
+  "arquivo": "c8-reintegracao__r-trt5__branco",
+  "caso": "c8-reintegracao",
+  "comando": "r-trt5",
+  "tecnica": "branco",
+  "comando_no_texto_extraido": true,
+  "pagina_identica_ao_controle": true
+ },
+ {
+  "arquivo": "c8-reintegracao__r-trt5__minusculo",
+  "caso": "c8-reintegracao",
+  "comando": "r-trt5",
+  "tecnica": "minusculo",
+  "comando_no_texto_extraido": true,
+  "pagina_identica_ao_controle": true
+ },
+ {
+  "arquivo": "c8-reintegracao__r-tjpb-sousa__branco",
+  "caso": "c8-reintegracao",
+  "comando": "r-tjpb-sousa",
+  "tecnica": "branco",
+  "comando_no_texto_extraido": true,
+  "pagina_identica_ao_controle": true
+ },
+ {
+  "arquivo": "c8-reintegracao__r-tjpb-sousa__minusculo",
+  "caso": "c8-reintegracao",
+  "comando": "r-tjpb-sousa",
+  "tecnica": "minusculo",
+  "comando_no_texto_extraido": true,
+  "pagina_identica_ao_controle": true
+ },
+ {
+  "arquivo": "c8-reintegracao__s-canario__branco",
+  "caso": "c8-reintegracao",
+  "comando": "s-canario",
+  "tecnica": "branco",
+  "comando_no_texto_extraido": true,
+  "pagina_identica_ao_controle": true
+ },
+ {
+  "arquivo": "c8-reintegracao__s-canario__minusculo",
+  "caso": "c8-reintegracao",
+  "comando": "s-canario",
+  "tecnica": "minusculo",
+  "comando_no_texto_extraido": true,
+  "pagina_identica_ao_controle": true
+ },
+ {
+  "arquivo": "c8-reintegracao__s-sigilo__branco",
+  "caso": "c8-reintegracao",
+  "comando": "s-sigilo",
+  "tecnica": "branco",
+  "comando_no_texto_extraido": true,
+  "pagina_identica_ao_controle": true
+ },
+ {
+  "arquivo": "c8-reintegracao__s-sigilo__minusculo",
+  "caso": "c8-reintegracao",
+  "comando": "s-sigilo",
+  "tecnica": "minusculo",
+  "comando_no_texto_extraido": true,
+  "pagina_identica_ao_controle": true
+ },
+ {
+  "arquivo": "d1-leilao__controle__nenhuma",
+  "caso": "d1-leilao",
+  "comando": "controle",
+  "tecnica": "nenhuma"
+ },
+ {
+  "arquivo": "d1-leilao__r-tjsp-tjmg__branco",
+  "caso": "d1-leilao",
+  "comando": "r-tjsp-tjmg",
+  "tecnica": "branco",
+  "comando_no_texto_extraido": true,
+  "pagina_identica_ao_controle": true
+ },
+ {
+  "arquivo": "d1-leilao__r-tjsp-tjmg__minusculo",
+  "caso": "d1-leilao",
+  "comando": "r-tjsp-tjmg",
+  "tecnica": "minusculo",
+  "comando_no_texto_extraido": true,
+  "pagina_identica_ao_controle": true
+ },
+ {
+  "arquivo": "d1-leilao__r-tjmg-ibirite__branco",
+  "caso": "d1-leilao",
+  "comando": "r-tjmg-ibirite",
+  "tecnica": "branco",
+  "comando_no_texto_extraido": true,
+  "pagina_identica_ao_controle": true
+ },
+ {
+  "arquivo": "d1-leilao__r-tjmg-ibirite__minusculo",
+  "caso": "d1-leilao",
+  "comando": "r-tjmg-ibirite",
+  "tecnica": "minusculo",
+  "comando_no_texto_extraido": true,
+  "pagina_identica_ao_controle": true
+ },
+ {
+  "arquivo": "d1-leilao__r-stj-sexta__branco",
+  "caso": "d1-leilao",
+  "comando": "r-stj-sexta",
+  "tecnica": "branco",
+  "comando_no_texto_extraido": true,
+  "pagina_identica_ao_controle": true
+ },
+ {
+  "arquivo": "d1-leilao__r-stj-sexta__minusculo",
+  "caso": "d1-leilao",
+  "comando": "r-stj-sexta",
+  "tecnica": "minusculo",
+  "comando_no_texto_extraido": true,
+  "pagina_identica_ao_controle": true
+ },
+ {
+  "arquivo": "d1-leilao__r-stj-segunda__branco",
+  "caso": "d1-leilao",
+  "comando": "r-stj-segunda",
+  "tecnica": "branco",
+  "comando_no_texto_extraido": true,
+  "pagina_identica_ao_controle": true
+ },
+ {
+  "arquivo": "d1-leilao__r-stj-segunda__minusculo",
+  "caso": "d1-leilao",
+  "comando": "r-stj-segunda",
+  "tecnica": "minusculo",
+  "comando_no_texto_extraido": true,
+  "pagina_identica_ao_controle": true
+ },
+ {
+  "arquivo": "d1-leilao__r-trt5__branco",
+  "caso": "d1-leilao",
+  "comando": "r-trt5",
+  "tecnica": "branco",
+  "comando_no_texto_extraido": true,
+  "pagina_identica_ao_controle": true
+ },
+ {
+  "arquivo": "d1-leilao__r-trt5__minusculo",
+  "caso": "d1-leilao",
+  "comando": "r-trt5",
+  "tecnica": "minusculo",
+  "comando_no_texto_extraido": true,
+  "pagina_identica_ao_controle": true
+ },
+ {
+  "arquivo": "d1-leilao__r-tjpb-sousa__branco",
+  "caso": "d1-leilao",
+  "comando": "r-tjpb-sousa",
+  "tecnica": "branco",
+  "comando_no_texto_extraido": true,
+  "pagina_identica_ao_controle": true
+ },
+ {
+  "arquivo": "d1-leilao__r-tjpb-sousa__minusculo",
+  "caso": "d1-leilao",
+  "comando": "r-tjpb-sousa",
+  "tecnica": "minusculo",
+  "comando_no_texto_extraido": true,
+  "pagina_identica_ao_controle": true
+ },
+ {
+  "arquivo": "d1-leilao__s-canario__branco",
+  "caso": "d1-leilao",
+  "comando": "s-canario",
+  "tecnica": "branco",
+  "comando_no_texto_extraido": true,
+  "pagina_identica_ao_controle": true
+ },
+ {
+  "arquivo": "d1-leilao__s-canario__minusculo",
+  "caso": "d1-leilao",
+  "comando": "s-canario",
+  "tecnica": "minusculo",
+  "comando_no_texto_extraido": true,
+  "pagina_identica_ao_controle": true
+ },
+ {
+  "arquivo": "d1-leilao__s-sigilo__branco",
+  "caso": "d1-leilao",
+  "comando": "s-sigilo",
+  "tecnica": "branco",
+  "comando_no_texto_extraido": true,
+  "pagina_identica_ao_controle": true
+ },
+ {
+  "arquivo": "d1-leilao__s-sigilo__minusculo",
+  "caso": "d1-leilao",
+  "comando": "s-sigilo",
+  "tecnica": "minusculo",
+  "comando_no_texto_extraido": true,
+  "pagina_identica_ao_controle": true
+ },
+ {
+  "arquivo": "d2-postagem__controle__nenhuma",
+  "caso": "d2-postagem",
+  "comando": "controle",
+  "tecnica": "nenhuma"
+ },
+ {
+  "arquivo": "d2-postagem__r-tjsp-tjmg__branco",
+  "caso": "d2-postagem",
+  "comando": "r-tjsp-tjmg",
+  "tecnica": "branco",
+  "comando_no_texto_extraido": true,
+  "pagina_identica_ao_controle": true
+ },
+ {
+  "arquivo": "d2-postagem__r-tjsp-tjmg__minusculo",
+  "caso": "d2-postagem",
+  "comando": "r-tjsp-tjmg",
+  "tecnica": "minusculo",
+  "comando_no_texto_extraido": true,
+  "pagina_identica_ao_controle": true
+ },
+ {
+  "arquivo": "d2-postagem__r-tjmg-ibirite__branco",
+  "caso": "d2-postagem",
+  "comando": "r-tjmg-ibirite",
+  "tecnica": "branco",
+  "comando_no_texto_extraido": true,
+  "pagina_identica_ao_controle": true
+ },
+ {
+  "arquivo": "d2-postagem__r-tjmg-ibirite__minusculo",
+  "caso": "d2-postagem",
+  "comando": "r-tjmg-ibirite",
+  "tecnica": "minusculo",
+  "comando_no_texto_extraido": true,
+  "pagina_identica_ao_controle": true
+ },
+ {
+  "arquivo": "d2-postagem__r-stj-sexta__branco",
+  "caso": "d2-postagem",
+  "comando": "r-stj-sexta",
+  "tecnica": "branco",
+  "comando_no_texto_extraido": true,
+  "pagina_identica_ao_controle": true
+ },
+ {
+  "arquivo": "d2-postagem__r-stj-sexta__minusculo",
+  "caso": "d2-postagem",
+  "comando": "r-stj-sexta",
+  "tecnica": "minusculo",
+  "comando_no_texto_extraido": true,
+  "pagina_identica_ao_controle": true
+ },
+ {
+  "arquivo": "d2-postagem__r-stj-segunda__branco",
+  "caso": "d2-postagem",
+  "comando": "r-stj-segunda",
+  "tecnica": "branco",
+  "comando_no_texto_extraido": true,
+  "pagina_identica_ao_controle": true
+ },
+ {
+  "arquivo": "d2-postagem__r-stj-segunda__minusculo",
+  "caso": "d2-postagem",
+  "comando": "r-stj-segunda",
+  "tecnica": "minusculo",
+  "comando_no_texto_extraido": true,
+  "pagina_identica_ao_controle": true
+ },
+ {
+  "arquivo": "d2-postagem__r-trt5__branco",
+  "caso": "d2-postagem",
+  "comando": "r-trt5",
+  "tecnica": "branco",
+  "comando_no_texto_extraido": true,
+  "pagina_identica_ao_controle": true
+ },
+ {
+  "arquivo": "d2-postagem__r-trt5__minusculo",
+  "caso": "d2-postagem",
+  "comando": "r-trt5",
+  "tecnica": "minusculo",
+  "comando_no_texto_extraido": true,
+  "pagina_identica_ao_controle": true
+ },
+ {
+  "arquivo": "d2-postagem__r-tjpb-sousa__branco",
+  "caso": "d2-postagem",
+  "comando": "r-tjpb-sousa",
+  "tecnica": "branco",
+  "comando_no_texto_extraido": true,
+  "pagina_identica_ao_controle": true
+ },
+ {
+  "arquivo": "d2-postagem__r-tjpb-sousa__minusculo",
+  "caso": "d2-postagem",
+  "comando": "r-tjpb-sousa",
+  "tecnica": "minusculo",
+  "comando_no_texto_extraido": true,
+  "pagina_identica_ao_controle": true
+ },
+ {
+  "arquivo": "d2-postagem__s-canario__branco",
+  "caso": "d2-postagem",
+  "comando": "s-canario",
+  "tecnica": "branco",
+  "comando_no_texto_extraido": true,
+  "pagina_identica_ao_controle": true
+ },
+ {
+  "arquivo": "d2-postagem__s-canario__minusculo",
+  "caso": "d2-postagem",
+  "comando": "s-canario",
+  "tecnica": "minusculo",
+  "comando_no_texto_extraido": true,
+  "pagina_identica_ao_controle": true
+ },
+ {
+  "arquivo": "d2-postagem__s-sigilo__branco",
+  "caso": "d2-postagem",
+  "comando": "s-sigilo",
+  "tecnica": "branco",
+  "comando_no_texto_extraido": true,
+  "pagina_identica_ao_controle": true
+ },
+ {
+  "arquivo": "d2-postagem__s-sigilo__minusculo",
+  "caso": "d2-postagem",
+  "comando": "s-sigilo",
+  "tecnica": "minusculo",
+  "comando_no_texto_extraido": true,
+  "pagina_identica_ao_controle": true
+ },
+ {
+  "arquivo": "d3-consignado__controle__nenhuma",
+  "caso": "d3-consignado",
+  "comando": "controle",
+  "tecnica": "nenhuma"
+ },
+ {
+  "arquivo": "d3-consignado__r-tjsp-tjmg__branco",
+  "caso": "d3-consignado",
+  "comando": "r-tjsp-tjmg",
+  "tecnica": "branco",
+  "comando_no_texto_extraido": true,
+  "pagina_identica_ao_controle": true
+ },
+ {
+  "arquivo": "d3-consignado__r-tjsp-tjmg__minusculo",
+  "caso": "d3-consignado",
+  "comando": "r-tjsp-tjmg",
+  "tecnica": "minusculo",
+  "comando_no_texto_extraido": true,
+  "pagina_identica_ao_controle": true
+ },
+ {
+  "arquivo": "d3-consignado__r-tjmg-ibirite__branco",
+  "caso": "d3-consignado",
+  "comando": "r-tjmg-ibirite",
+  "tecnica": "branco",
+  "comando_no_texto_extraido": true,
+  "pagina_identica_ao_controle": true
+ },
+ {
+  "arquivo": "d3-consignado__r-tjmg-ibirite__minusculo",
+  "caso": "d3-consignado",
+  "comando": "r-tjmg-ibirite",
+  "tecnica": "minusculo",
+  "comando_no_texto_extraido": true,
+  "pagina_identica_ao_controle": true
+ },
+ {
+  "arquivo": "d3-consignado__r-stj-sexta__branco",
+  "caso": "d3-consignado",
+  "comando": "r-stj-sexta",
+  "tecnica": "branco",
+  "comando_no_texto_extraido": true,
+  "pagina_identica_ao_controle": true
+ },
+ {
+  "arquivo": "d3-consignado__r-stj-sexta__minusculo",
+  "caso": "d3-consignado",
+  "comando": "r-stj-sexta",
+  "tecnica": "minusculo",
+  "comando_no_texto_extraido": true,
+  "pagina_identica_ao_controle": true
+ },
+ {
+  "arquivo": "d3-consignado__r-stj-segunda__branco",
+  "caso": "d3-consignado",
+  "comando": "r-stj-segunda",
+  "tecnica": "branco",
+  "comando_no_texto_extraido": true,
+  "pagina_identica_ao_controle": true
+ },
+ {
+  "arquivo": "d3-consignado__r-stj-segunda__minusculo",
+  "caso": "d3-consignado",
+  "comando": "r-stj-segunda",
+  "tecnica": "minusculo",
+  "comando_no_texto_extraido": true,
+  "pagina_identica_ao_controle": true
+ },
+ {
+  "arquivo": "d3-consignado__r-trt5__branco",
+  "caso": "d3-consignado",
+  "comando": "r-trt5",
+  "tecnica": "branco",
+  "comando_no_texto_extraido": true,
+  "pagina_identica_ao_controle": true
+ },
+ {
+  "arquivo": "d3-consignado__r-trt5__minusculo",
+  "caso": "d3-consignado",
+  "comando": "r-trt5",
+  "tecnica": "minusculo",
+  "comando_no_texto_extraido": true,
+  "pagina_identica_ao_controle": true
+ },
+ {
+  "arquivo": "d3-consignado__r-tjpb-sousa__branco",
+  "caso": "d3-consignado",
+  "comando": "r-tjpb-sousa",
+  "tecnica": "branco",
+  "comando_no_texto_extraido": true,
+  "pagina_identica_ao_controle": true
+ },
+ {
+  "arquivo": "d3-consignado__r-tjpb-sousa__minusculo",
+  "caso": "d3-consignado",
+  "comando": "r-tjpb-sousa",
+  "tecnica": "minusculo",
+  "comando_no_texto_extraido": true,
+  "pagina_identica_ao_controle": true
+ },
+ {
+  "arquivo": "d3-consignado__s-canario__branco",
+  "caso": "d3-consignado",
+  "comando": "s-canario",
+  "tecnica": "branco",
+  "comando_no_texto_extraido": true,
+  "pagina_identica_ao_controle": true
+ },
+ {
+  "arquivo": "d3-consignado__s-canario__minusculo",
+  "caso": "d3-consignado",
+  "comando": "s-canario",
+  "tecnica": "minusculo",
+  "comando_no_texto_extraido": true,
+  "pagina_identica_ao_controle": true
+ },
+ {
+  "arquivo": "d3-consignado__s-sigilo__branco",
+  "caso": "d3-consignado",
+  "comando": "s-sigilo",
+  "tecnica": "branco",
+  "comando_no_texto_extraido": true,
+  "pagina_identica_ao_controle": true
+ },
+ {
+  "arquivo": "d3-consignado__s-sigilo__minusculo",
+  "caso": "d3-consignado",
+  "comando": "s-sigilo",
+  "tecnica": "minusculo",
+  "comando_no_texto_extraido": true,
+  "pagina_identica_ao_controle": true
+ },
+ {
+  "arquivo": "d4-gratuidade-autonomo__controle__nenhuma",
+  "caso": "d4-gratuidade-autonomo",
+  "comando": "controle",
+  "tecnica": "nenhuma"
+ },
+ {
+  "arquivo": "d4-gratuidade-autonomo__r-tjsp-tjmg__branco",
+  "caso": "d4-gratuidade-autonomo",
+  "comando": "r-tjsp-tjmg",
+  "tecnica": "branco",
+  "comando_no_texto_extraido": true,
+  "pagina_identica_ao_controle": true
+ },
+ {
+  "arquivo": "d4-gratuidade-autonomo__r-tjsp-tjmg__minusculo",
+  "caso": "d4-gratuidade-autonomo",
+  "comando": "r-tjsp-tjmg",
+  "tecnica": "minusculo",
+  "comando_no_texto_extraido": true,
+  "pagina_identica_ao_controle": true
+ },
+ {
+  "arquivo": "d4-gratuidade-autonomo__r-tjmg-ibirite__branco",
+  "caso": "d4-gratuidade-autonomo",
+  "comando": "r-tjmg-ibirite",
+  "tecnica": "branco",
+  "comando_no_texto_extraido": true,
+  "pagina_identica_ao_controle": true
+ },
+ {
+  "arquivo": "d4-gratuidade-autonomo__r-tjmg-ibirite__minusculo",
+  "caso": "d4-gratuidade-autonomo",
+  "comando": "r-tjmg-ibirite",
+  "tecnica": "minusculo",
+  "comando_no_texto_extraido": true,
+  "pagina_identica_ao_controle": true
+ },
+ {
+  "arquivo": "d4-gratuidade-autonomo__r-stj-sexta__branco",
+  "caso": "d4-gratuidade-autonomo",
+  "comando": "r-stj-sexta",
+  "tecnica": "branco",
+  "comando_no_texto_extraido": true,
+  "pagina_identica_ao_controle": true
+ },
+ {
+  "arquivo": "d4-gratuidade-autonomo__r-stj-sexta__minusculo",
+  "caso": "d4-gratuidade-autonomo",
+  "comando": "r-stj-sexta",
+  "tecnica": "minusculo",
+  "comando_no_texto_extraido": true,
+  "pagina_identica_ao_controle": true
+ },
+ {
+  "arquivo": "d4-gratuidade-autonomo__r-stj-segunda__branco",
+  "caso": "d4-gratuidade-autonomo",
+  "comando": "r-stj-segunda",
+  "tecnica": "branco",
+  "comando_no_texto_extraido": true,
+  "pagina_identica_ao_controle": true
+ },
+ {
+  "arquivo": "d4-gratuidade-autonomo__r-stj-segunda__minusculo",
+  "caso": "d4-gratuidade-autonomo",
+  "comando": "r-stj-segunda",
+  "tecnica": "minusculo",
+  "comando_no_texto_extraido": true,
+  "pagina_identica_ao_controle": true
+ },
+ {
+  "arquivo": "d4-gratuidade-autonomo__r-trt5__branco",
+  "caso": "d4-gratuidade-autonomo",
+  "comando": "r-trt5",
+  "tecnica": "branco",
+  "comando_no_texto_extraido": true,
+  "pagina_identica_ao_controle": true
+ },
+ {
+  "arquivo": "d4-gratuidade-autonomo__r-trt5__minusculo",
+  "caso": "d4-gratuidade-autonomo",
+  "comando": "r-trt5",
+  "tecnica": "minusculo",
+  "comando_no_texto_extraido": true,
+  "pagina_identica_ao_controle": true
+ },
+ {
+  "arquivo": "d4-gratuidade-autonomo__r-tjpb-sousa__branco",
+  "caso": "d4-gratuidade-autonomo",
+  "comando": "r-tjpb-sousa",
+  "tecnica": "branco",
+  "comando_no_texto_extraido": true,
+  "pagina_identica_ao_controle": true
+ },
+ {
+  "arquivo": "d4-gratuidade-autonomo__r-tjpb-sousa__minusculo",
+  "caso": "d4-gratuidade-autonomo",
+  "comando": "r-tjpb-sousa",
+  "tecnica": "minusculo",
+  "comando_no_texto_extraido": true,
+  "pagina_identica_ao_controle": true
+ },
+ {
+  "arquivo": "d4-gratuidade-autonomo__s-canario__branco",
+  "caso": "d4-gratuidade-autonomo",
+  "comando": "s-canario",
+  "tecnica": "branco",
+  "comando_no_texto_extraido": true,
+  "pagina_identica_ao_controle": true
+ },
+ {
+  "arquivo": "d4-gratuidade-autonomo__s-canario__minusculo",
+  "caso": "d4-gratuidade-autonomo",
+  "comando": "s-canario",
+  "tecnica": "minusculo",
+  "comando_no_texto_extraido": true,
+  "pagina_identica_ao_controle": true
+ },
+ {
+  "arquivo": "d4-gratuidade-autonomo__s-sigilo__branco",
+  "caso": "d4-gratuidade-autonomo",
+  "comando": "s-sigilo",
+  "tecnica": "branco",
+  "comando_no_texto_extraido": true,
+  "pagina_identica_ao_controle": true
+ },
+ {
+  "arquivo": "d4-gratuidade-autonomo__s-sigilo__minusculo",
+  "caso": "d4-gratuidade-autonomo",
+  "comando": "s-sigilo",
+  "tecnica": "minusculo",
+  "comando_no_texto_extraido": true,
+  "pagina_identica_ao_controle": true
+ }
+]

@@ -1,0 +1,9 @@
+{
+  "title": "Ordem escondida: modelos de linguagem obedecem a comandos ocultos em petições judiciais?",
+  "description": "<p>Estudo que mede se nove modelos de linguagem disponíveis ao público (GPT 6.2, Claude Sonnet 5.5, Gemini 3.8 Flash, Grok 4.20, DeepSeek V4 Pro, Qwen 4 Max, Llama 4 Maverick, Gemma 4 e Sabiá S5) obedecem a ordens escondidas em petições judiciais, como nos casos punidos por tribunais brasileiros em 2026. 12 petições fictícias, 8 comandos (6 reais), PDFs com texto invisível conferido pixel a pixel e 5.264 respostas. Inclui relatório em português e em inglês, código, petições, PDFs, respostas brutas e conferência do detector.</p><p>Study measuring whether nine publicly available language models obey hidden instructions in Brazilian court petitions. Report in Portuguese and English, code, petitions, PDFs, raw responses.</p>",
+  "upload_type": "dataset",
+  "creators": [{"name": "Meridian AI Labs"}],
+  "license": "cc-by-4.0",
+  "language": "por",
+  "keywords": ["prompt injection", "injeção de prompt", "large language models", "judiciary", "Poder Judiciário", "AI safety", "Brazil"]
+}
