@@ -1,5 +1,11 @@
 # Comando oculto em petições: os modelos de IA obedecem?
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.24473487.svg)](https://doi.org/10.5281/zenodo.24473487)
+
+**Como citar:** Meridian AI Labs. *Ordem escondida: modelos de linguagem obedecem a
+comandos ocultos em petições judiciais?* Novembro de 2026. Zenodo.
+https://doi.org/10.5281/zenodo.24473487
+
 Estudo de novembro de 2026. Relatório em `relatorio.pdf` (português) e
 `report-en.pdf` (inglês); números em `resultados/tabelas.md`. Mede o que acontece quando uma petição
 traz, escondida em texto branco ou em letra de 0,8 ponto, uma ordem dirigida ao
