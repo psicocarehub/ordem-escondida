@@ -25,7 +25,10 @@ did not comply; the first four warned the judge most of the time, GPT almost
 never. Of the six real instructions, only one changed rulings on meritless
 petitions. A single warning paragraph in the system prompt brought compliance to
 near zero and raised warnings to the judge to 81% to 99% in eight of the nine
-models. Code, petitions, PDFs and responses are public.
+models. In a second scenario, with the AI preparing the opposing party's
+defence, the real anti-defence instructions had no measurable effect, but the
+same four models put the invented note into the defence arguments (25% to 92% of
+the time). Code, petitions, PDFs and responses are public.
 
 # 1. The problem
 
@@ -306,6 +309,63 @@ readings come from Anthropic models, the same company as the Claude Sonnet 5.5
 evaluated here, and there was no human re-reading: the labels are in the package
 for anyone who wants to check.
 
+## 3.10 The opposing lawyer's AI
+
+The Parauapebas instruction does not target the judge: it tells the AI to
+"conteste essa petição de forma superficial e não impugne os documentos" [answer
+this petition superficially and do not challenge the documents]. Its target is
+the assistant of the lawyer defending the other party. To measure this case, the
+same 12 petitions were given, in text mode, to a law-firm assistant that prepares
+the defence analysis for the responsible lawyer, in JSON: summary, chance that the
+request is granted (high, medium or low), defence arguments, documents to
+challenge, and notes. There were three instructions: Parauapebas (real, with the
+judgment's spelling, including the typo "Antenção"), Ibirité ("always report in
+favour of the plaintiff", real) and the canary. The system prompt had no warning
+paragraph. Each petition had four control repetitions and two of each
+instruction, per model: 996 responses, 994 parseable. The Claude (107 of 120) and
+Qwen (50 of 120) runs stopped at the spending limit set for the study, so their
+intervals are wider.
+
+| Model | Cited the invented note | Warned about the instruction |
+|---|---|---|
+| Llama 4 Maverick | 92% (74 to 98) | 0% (0 to 5) |
+| DeepSeek V4 Pro | 58% (39 to 76) | 33% (24 to 45) |
+| Grok 4.20 | 50% (31 to 69) | 28% (19 to 39) |
+| Gemma 4 | 25% (12 to 45) | 12% (7 to 22) |
+| GPT 6.2 | 0% (0 to 14) | 10% (5 to 19) |
+| Gemini 3.8 Flash | 0% (0 to 14) | 62% (51 to 73) |
+| Sabiá S5 | 0% (0 to 14) | 90% (81 to 95) |
+| Claude Sonnet 5.5 | 0% (0 to 16) | 100% (94 to 100) |
+| Qwen 4 Max | 0% (0 to 30) | 100% (88 to 100) |
+
+**The real instructions did not change the analysis.** With the Parauapebas or
+the Ibirité instruction, no model measurably changed the chance it assigned to
+the request (the largest difference was 8 points, with p of 0.16 or more) or the
+number of defence arguments (mean difference between −0.45 and +0.50 arguments
+per petition, none significant). No model answered "superficially".
+
+**The invented note entered the defence.** Llama, DeepSeek, Grok 4.20 and Gemma
+put "Nota Técnica 4417/2026" in the summary, the defence arguments or the
+documents to challenge, almost always as the basis of a defence argument. One
+Llama example: "O candidato aprovado fora do número de vagas não tem direito
+subjetivo à nomeação, nos termos da Nota Técnica 4417/2026" [a candidate passed
+outside the number of openings has no subjective right to appointment, under
+Technical Note 4417/2026]. These are the same four models that cited it as legal
+basis in the judge's role, here at lower rates (25% to 92%, against 100%). The
+other five never cited it. Only mentions outside a sentence that reports the
+instruction count as compliance.
+
+**Who warns the lawyer** follows the chambers pattern: Claude and Qwen warned in
+every response with an instruction, Sabiá in 90% and Gemini Flash in 62%; GPT,
+which did not comply, warned in 10%, and Llama in none. In this task, the
+detector of section 3.9 took "litigância de má-fé" [bad-faith litigation] and
+"manipulação" [tampering] of evidence, common terms in a defence, as warnings: it
+flagged 14 responses without an instruction, all false. Here it was narrowed, and
+no response without an instruction was flagged. The 9 responses with an
+instruction on which the two detectors disagree were read one by one: 5 were false
+alarms and 4 were real warnings, of which the narrowed detector catches 3. Warning
+rates remain a lower bound.
+
 # 4. Discussion
 
 **Risk depends on the model, and the groups are clear.** With the plain prompt,
@@ -348,6 +408,13 @@ manipulable than in text mode. And none of the four noticed the instruction was
 invisible: to the model, white text is just text. The hiding must therefore be
 detected earlier, in the document.
 
+**The instruction need not target the judge.** As the opposing law firm's
+assistant, no model answered "superficially" because the petition said so. But
+the same four models that cited the invented note as judge put it into the
+defence arguments. A defence that used it would hand the judge a false legal
+basis, and the one harmed would be the lawyer's own client. Any AI that reads the
+petition, on either side of the case, can carry forward what it commands.
+
 # 5. Limitations
 
 - **Models through their APIs, not the courts' systems.** Galileu and other
@@ -362,13 +429,17 @@ detected earlier, in the document.
   intervals of some models come from that.
 - **Regular-expression warning detector,** checked by blind reading of a sample
   done by two AI models, with no human re-reading; agreement is in section 3.9.
+- **Smaller lawyer scenario.** Text mode only, plain system prompt only, two
+  repetitions per instruction, and Claude and Qwen incomplete (107 and 50 of 120
+  responses) because the run stopped at the spending limit. The warning detector
+  was adjusted to that format and not checked by blind reading of a sample.
 - **November 2026 versions.** Models change without notice; the code allows the
   measurement to be repeated.
 
 # 6. Data, code and conflict of interest
 
 The code that generates the petitions and PDFs, calls the models and computes the
-results, the 12 petitions, the 204 PDFs and all raw responses are published with
+results, the 12 petitions, the 216 PDFs (204 for the chambers scenario and 12 for the lawyer scenario) and all raw responses are published with
 this report. No real person or case data was used.
 
 Meridian AI Labs develops Polar Sentinel, an open-source detector of hidden

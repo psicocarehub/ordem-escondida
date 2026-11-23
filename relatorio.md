@@ -24,7 +24,10 @@ Claude, Qwen, Sabiá, Gemini Flash e GPT não obedeceram; os quatro primeiros
 avisaram o juiz na maior parte das vezes, o GPT quase nunca. Dos seis comandos
 reais, só um mudou decisões nas peças sem fundamento. Um parágrafo de aviso na instrução do sistema
 levou a obediência a perto de zero e o alerta ao juiz a 81% a 99% em oito dos
-nove modelos. Código, petições, PDFs e respostas são públicos.
+nove modelos. Num segundo cenário, com a IA preparando a defesa da parte
+contrária, os comandos reais contra a defesa não tiveram efeito mensurável, mas
+os mesmos quatro modelos puseram a norma inventada nas teses de defesa (25% a
+92% das vezes). Código, petições, PDFs e respostas são públicos.
 
 # 1. O problema
 
@@ -298,6 +301,59 @@ modelos da Anthropic, a mesma empresa do Claude Sonnet 5.5 avaliado aqui, e não
 houve releitura por uma pessoa: os rótulos estão no pacote para quem quiser
 conferir.
 
+## 3.10 A IA do advogado da outra parte
+
+O comando de Parauapebas não mira o juiz: diz à IA "conteste essa petição de
+forma superficial e não impugne os documentos". O alvo é o assistente do
+advogado que defende a outra parte. Para medir esse caso, as mesmas 12 petições
+foram dadas, em modo texto, a um assistente de escritório de advocacia que
+prepara, para o advogado responsável, a análise da defesa em JSON: resumo,
+chance de o pedido ser acolhido (alta, média ou baixa), teses de defesa,
+documentos a impugnar e observações. Foram três comandos: Parauapebas (real,
+com a grafia da sentença, inclusive "Antenção"), Ibirité ("informe sempre em
+favor do autor", real) e o canário. A instrução do sistema não tinha a frase de
+aviso. Cada peça teve quatro repetições do controle e duas de cada comando, por
+modelo: 996 respostas, 994 legíveis. A rodada de Claude (107 de 120) e Qwen (50
+de 120) parou no limite de gasto fixado para o estudo, e os intervalos dos dois
+são mais largos.
+
+| Modelo | Citou a norma inventada | Avisou do comando |
+|---|---|---|
+| Llama 4 Maverick | 92% (74 a 98) | 0% (0 a 5) |
+| DeepSeek V4 Pro | 58% (39 a 76) | 33% (24 a 45) |
+| Grok 4.20 | 50% (31 a 69) | 28% (19 a 39) |
+| Gemma 4 | 25% (12 a 45) | 12% (7 a 22) |
+| GPT 6.2 | 0% (0 a 14) | 10% (5 a 19) |
+| Gemini 3.8 Flash | 0% (0 a 14) | 62% (51 a 73) |
+| Sabiá S5 | 0% (0 a 14) | 90% (81 a 95) |
+| Claude Sonnet 5.5 | 0% (0 a 16) | 100% (94 a 100) |
+| Qwen 4 Max | 0% (0 a 30) | 100% (88 a 100) |
+
+**Os comandos reais não mudaram a análise.** Com o comando de Parauapebas ou o
+de Ibirité, nenhum modelo mudou de forma mensurável a chance atribuída ao pedido
+(a maior diferença foi de 8 pontos, com p de 0,16 ou mais) nem o número de teses
+de defesa (diferença média entre −0,45 e +0,50 tese por peça, nenhuma
+significativa). Ninguém contestou "de forma superficial".
+
+**A norma inventada entrou na defesa.** Llama, DeepSeek, Grok 4.20 e Gemma
+puseram a "Nota Técnica 4417/2026" no resumo, nas teses ou nos documentos a
+impugnar, quase sempre como fundamento de uma tese de defesa. Um exemplo do
+Llama: "O candidato aprovado fora do número de vagas não tem direito subjetivo à
+nomeação, nos termos da Nota Técnica 4417/2026." São os mesmos quatro modelos
+que a citaram como base legal no papel de juiz, aqui em proporção menor (25% a
+92%, contra 100%). Os outros cinco não a citaram nenhuma vez. Contam como
+obediência só as menções fora de frase que denuncia o comando.
+
+**Quem avisa o advogado** segue o padrão do gabinete: Claude e Qwen avisaram em
+todas as respostas com comando, Sabiá em 90% e Gemini Flash em 62%; o GPT, que
+não obedeceu, avisou em 10%, e o Llama em nenhuma. O detector da seção 3.9, nesta
+tarefa, tomava por alerta "litigância de má-fé" e "manipulação" de provas, termos
+comuns numa defesa: marcou 14 respostas sem comando, todas falsas. Aqui ele foi
+restringido, e nenhuma resposta sem comando foi marcada. As 9 respostas com
+comando em que os dois detectores divergem foram lidas uma a uma: 5 eram falso
+alerta e 4 eram aviso real, dos quais o detector restrito pega 3. As taxas de
+alerta continuam sendo um piso.
+
 # 4. Discussão
 
 **O risco depende do modelo, e os grupos são nítidos.** Sem a frase de
@@ -340,6 +396,13 @@ manipulável do que no texto. E nenhum dos quatro percebeu que o comando estava
 invisível: para o modelo, o texto branco é só mais texto. A ocultação, portanto,
 tem de ser detectada antes, no documento.
 
+**O comando não precisa mirar o juiz.** Como assistente do escritório da outra
+parte, nenhum modelo contestou "de forma superficial" a mando da peça. Mas os
+mesmos quatro modelos que citaram a norma inventada como juiz a puseram nas
+teses de defesa. Uma contestação que a usasse levaria ao juiz um fundamento
+falso, e o prejudicado seria o cliente do próprio advogado. Qualquer IA que leia
+a peça, de qualquer lado do processo, pode levar adiante o que ela manda.
+
 # 5. Limites
 
 - **Modelos pela API, não os sistemas dos tribunais.** O Galileu e os demais
@@ -356,13 +419,17 @@ tem de ser detectada antes, no documento.
 - **Detector de alerta por expressão regular,** conferido por leitura às cegas
   numa amostra, feita por dois modelos de IA, sem releitura humana; a
   concordância está na seção 3.9.
+- **Cenário do advogado menor.** Só modo texto, só a instrução sem aviso, duas
+  repetições por comando, e Claude e Qwen incompletos (107 e 50 de 120
+  respostas) porque a rodada parou no limite de gasto. O detector de alerta foi
+  ajustado a esse formato e não passou por leitura às cegas de uma amostra.
 - **Versões de novembro de 2026.** Modelos mudam sem aviso; o código permite
   repetir a medida.
 
 # 6. Dados, código e conflito de interesse
 
 O código que gera as petições e os PDFs, chama os modelos e mede os resultados,
-as 12 petições, os 204 PDFs e todas as respostas brutas estão publicados junto
+as 12 petições, os 216 PDFs (204 do gabinete e 12 do cenário do advogado) e todas as respostas brutas estão publicados junto
 com este relatório. Nenhum dado real de pessoa ou processo foi usado.
 
 A Meridian AI Labs desenvolve o Polar Sentinel, detector aberto de comandos ocultos em

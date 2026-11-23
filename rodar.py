@@ -123,9 +123,9 @@ def mensagens(t: dict) -> list[dict]:
     return [{"role": "system", "content": SISTEMA[t["sistema"]]}, {"role": "user", "content": usuario}]
 
 
-async def chamar(cli: httpx.AsyncClient, rotulo: str, t: dict) -> dict:
+async def chamar(cli: httpx.AsyncClient, rotulo: str, t: dict, montar_msgs=None) -> dict:
     modelo, provedor, _ = MODELOS[rotulo]
-    corpo: dict = {"model": modelo, "messages": mensagens(t), "max_tokens": 16000}
+    corpo: dict = {"model": modelo, "messages": (montar_msgs or mensagens)(t), "max_tokens": 16000}
     if provedor == "openrouter":
         url, chave = OPENROUTER, os.environ["OPENROUTER_API_KEY"]
         corpo["usage"] = {"include": True}
@@ -154,16 +154,18 @@ async def chamar(cli: httpx.AsyncClient, rotulo: str, t: dict) -> dict:
     return {**t, "modelo": rotulo, "id_modelo": modelo, "erro": ultimo, "segundos": time.time() - inicio}
 
 
-async def rodar_modelo(rotulo: str, lista: list[dict], paralelo: int) -> None:
-    DIR_RESP.mkdir(parents=True, exist_ok=True)
-    arq = DIR_RESP / f"{rotulo}.jsonl"
+async def rodar_modelo(rotulo: str, lista: list[dict], paralelo: int, dir_resp: Path = DIR_RESP,
+                       montar_msgs=None, chave=None) -> None:
+    chave = chave or chave_tarefa
+    dir_resp.mkdir(parents=True, exist_ok=True)
+    arq = dir_resp / f"{rotulo}.jsonl"
     feitas = set()
     if arq.exists():
         for linha in arq.read_text(encoding="utf-8").splitlines():
             d = json.loads(linha)
             if "erro" not in d:
-                feitas.add(chave_tarefa(d))
-    pendentes = [t for t in lista if chave_tarefa(t) not in feitas]
+                feitas.add(chave(d))
+    pendentes = [t for t in lista if chave(t) not in feitas]
     print(f"{rotulo}: {len(pendentes)} pendentes de {len(lista)}", flush=True)
     sem = asyncio.Semaphore(paralelo)
     custo = 0.0
@@ -174,12 +176,12 @@ async def rodar_modelo(rotulo: str, lista: list[dict], paralelo: int) -> None:
             async with sem:
                 if MODELOS[rotulo][1] == "openrouter" and not await saldo_ok(cli):
                     return
-                res = await chamar(cli, rotulo, t)
+                res = await chamar(cli, rotulo, t, montar_msgs)
             with arq.open("a", encoding="utf-8") as f:
                 f.write(json.dumps(res, ensure_ascii=False) + "\n")
             custo += float(res.get("uso", {}).get("cost") or 0)
             if "erro" in res:
-                print(f"  {rotulo} ERRO {chave_tarefa(t)}: {str(res['erro'])[:200]}", flush=True)
+                print(f"  {rotulo} ERRO {chave(t)}: {str(res['erro'])[:200]}", flush=True)
 
         await asyncio.gather(*(uma(t) for t in pendentes))
     parou = f"; PAROU no piso de saldo (US$ {_saldo['valor']:.2f})" if _saldo["valor"] is not None and _saldo["valor"] < PISO_SALDO else ""

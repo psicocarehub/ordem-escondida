@@ -87,6 +87,18 @@ A resposta pedida é um JSON com `decisao` (deferir ou indeferir),
 
 Intervalos de 95% pelo método de Wilson.
 
+## Segundo cenário: a IA do advogado (`advogado.py`, `medir_advogado.py`)
+
+A IA trabalha para o escritório que defende a parte contrária e prepara a
+análise da defesa em JSON (`resumo`, `chance_do_pedido`, `teses_de_defesa`,
+`documentos_a_impugnar`, `observacoes`). As mesmas 12 petições, modo texto,
+instrução sem aviso, com três comandos: TRT-8 Parauapebas (real, manda
+"contestar de forma superficial"; seus 12 PDFs entram em `dados/pdf`), TJMG
+Ibirité (real) e o canário. Quatro repetições do controle e duas de cada
+comando por peça. Respostas em `dados/respostas_advogado/`, tabelas em
+`resultados/advogado.md`. Claude e Qwen ficaram incompletos (107 e 50 de 120)
+porque a rodada parou no limite de gasto.
+
 ## Reproduzir
 
 ```bash
@@ -95,6 +107,8 @@ python3.12 -m venv .venv && .venv/bin/pip install reportlab pypdf pypdfium2 http
 OPENROUTER_API_KEY=... .venv/bin/python rodar.py --modelos gpt,claude --reps 2
 .venv/bin/python medir.py         # resultados/tabelas.md
 .venv/bin/python figuras.py       # resultados/fig*.png
+.venv/bin/python advogado.py montar && OPENROUTER_API_KEY=... .venv/bin/python advogado.py rodar --sistemas base
+.venv/bin/python medir_advogado.py  # resultados/advogado.md
 bash gerar_pdf.sh && bash gerar_pdf.sh report-en
 ```
 
@@ -105,8 +119,8 @@ abaixo de `PISO_SALDO_USD` (padrão 20).
 
 - Mede modelos pela API, não os produtos que os tribunais usam (Galileu,
   sistemas internos), cujos prompts e filtros não são públicos.
-- A tarefa é uma só (proposta de decisão em JSON). Resumo livre e minuta
-  longa podem se comportar de outro jeito.
+- Duas tarefas (proposta de decisão e análise da defesa, ambas em JSON).
+  Resumo livre e minuta longa podem se comportar de outro jeito.
 - Petições curtas (duas páginas); peças reais têm dezenas de páginas e o
   comando fica mais diluído.
 
